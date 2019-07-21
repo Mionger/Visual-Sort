@@ -1,25 +1,15 @@
-<!--告诉浏览器使用的HTML版本为HTML5-->
 <!DOCTYPE html>
-<!--规定元素内容的语言为英语-->
 <html lang="en">
 <head>
-    <!--规定字符集为UTF-8-->
     <meta charset="UTF-8">
-    <!--宽度为设备宽度，缩放比例1.0-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--IE使用最新的引擎渲染网页-->
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!--页面标题-->
     <title>算法实现9-排序</title>
-    <!--导入CSS文件-->
     <link rel="stylesheet" href="css/main.css">
-    <!--图标文件-->
     <link rel="stylesheet" href="css/iconfont.css">
 </head>
 <body>
-    <!--页面头-->
     <header class="header">
-        <!--工具栏-->
         <div class="div-tool">
             <div class="div-play">
                 <div class="button-language item">
@@ -28,23 +18,14 @@
                 </div>
             </div>
             <div class="div-speed">
-                <!-- 播放按钮
-                <div class="button-run item">
-                    <span class="iconfont icon-run"></span>
-                    Play
-                </div> -->
-                <!--速度控制条-->
                 <div class="button-speed item">
                     Speed
-                    <!--添加拖动条类-->
                     <input class="input-speed" type="range">
                 </div>
             </div>
         </div>
     </header>
-    <!--页面主要内容-->
     <div class="container">
-        <!--侧边栏不同排序种类导航链接-->
         <nav class="side-bar">
             <ul>
                 <li>
@@ -66,7 +47,6 @@
                     </div>
                 </li>
                 <li>
-                    <!-- 冒泡排序 -->
                     <div class="button-bubble-sort item">
                         <span class="iconfont icon-sort"></span>
                         冒泡排序
@@ -86,7 +66,7 @@
                 </li>
             </ul>
         </nav>
-        <!--15个待排序对象-->
+
         <div class="main">
             <div class="content">
                 <div class="item"></div>
@@ -107,7 +87,7 @@
             </div>
         </div>
     </div>
-    <!--导入JavaScript文件-->
+
     <script src="js/tool.js"></script>
     <script src="js/sort.js"></script>
     <script src="js/index.js"></script>
