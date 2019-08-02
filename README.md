@@ -11,7 +11,7 @@ develop information:
   version     : v 0.1.0
 </pre> 
 
-Demo Address: [demo](https://Mionger.github.io/demo/Visual-Sort/README.md)  
+Demo Address: [demo](https://Mionger.github.io/demo/Visual-Sort/demo.html)  
 - [x] Bubble Sort
 - [X] Insert Sort
 - [X] Binary Insert Sort
