@@ -8,7 +8,7 @@ develop information:
   software    : VScode  
   developer   : Mion-ger Park
   update time : 2019-8.3
-  version     : v 0.1.2
+  version     : v 0.1.3
 </pre> 
 
 Demo Address: [demo](https://Mionger.github.io/demo/Visual-Sort/demo.html)  
@@ -18,6 +18,11 @@ Demo Address: [demo](https://Mionger.github.io/demo/Visual-Sort/demo.html)
 - [X] Shell Sort
 - [X] Quick Sort
 - [X] Selection Sort
+
+<pre>  
+UPDATE 2019-8-4 v 0.1.3
+  1.Get the array to sort by user`s input with keyboard
+</pre>  
 
 <pre>  
 UPDATE 2019-8-3 v 0.1.2
